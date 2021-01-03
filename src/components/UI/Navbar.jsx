@@ -20,9 +20,11 @@ const Navbar = () => {
                 <div className="logo text-3xl col-span-3">
                     Glass
                 </div>
-                <div>
-                    <span className="text-2xl cursor-pointer" onClick={() => setShow(!show)}>&#9776;</span>
-                </div>
+                {!show && (
+                    <div>
+                        <span className="text-2xl cursor-pointer" onClick={() => setShow(!show)}>&#9776;</span>
+                    </div>
+                )}
                 {show && (
                 <div className="fixed right-0 p-4 top-0 h-full w-9/12 blur-border z-50">
                 <div>
