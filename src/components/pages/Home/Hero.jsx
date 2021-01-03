@@ -9,8 +9,8 @@ const Hero = () => {
             </div>
             <div className="absolute z-20 top-0 left-0 w-1/7 blur h-screen flex items-center">
                 <div className="w-7/12 mx-auto">
-                <h2 className="md:text-6xl text-3xl pb-10">One Life - see it well</h2>
-                <p className="md:text-3xl text-lg pb-10">Reliable brand that consumers have come to love</p>
+                <h2 className="md:text-6xl sm:text-3xl text-xl sm:pb-10 pb-7">One Life - see it well</h2>
+                <p className="md:text-3xl text-lg sm:pb-10 pb-7">Reliable brand that consumers have come to love</p>
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-10">
                     <div className="bg-gradient-to-br from-red-300 to-yellow-300 md:px-16 py-4 text-center text-lg font-extralight">Shop Now</div>
                     <div className="py-4 text-lg font-extralight grid grid-cols-3 gap-2">
