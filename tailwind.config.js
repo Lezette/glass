@@ -8,7 +8,10 @@ module.exports = {
       },
       width: {
         '1/7': '50.4857143%',
-      }
+      },
+      height: {
+        'lg': '40rem',
+      },
     },
   },
   variants: {
