@@ -26,15 +26,17 @@ const Navbar = () => {
                     </div>
                 )}
                 {show && (
-                <div className="fixed right-0 p-4 top-0 h-full w-9/12 blur-border z-50">
-                <div>
-                    <div className="text-4xl text-right text-gray-200 transition-all pr-6" onClick={() => setShow(!show)}>&times;</div>
-                    <ul>
-                    {navList.map((nav) => (
-                    <li key={nav} className="p-5 text-center text-white text-xl"><a href="./">{nav}</a></li>
-                    ))}
-                    </ul>
-                </div>
+                <div className="bg-primary fixed right-0  top-0 h-full w-9/12 z-50">
+                    <div className="blur-border p-4 h-full">
+                    <div>
+                        <div className="text-4xl text-right text-gray-200 transition-all pr-6" onClick={() => setShow(!show)}>&times;</div>
+                        <ul>
+                        {navList.map((nav) => (
+                        <li key={nav} className="p-5 text-center text-white text-xl"><a href="./">{nav}</a></li>
+                        ))}
+                        </ul>
+                    </div>
+                    </div>
                 </div>
                 )}
             </div>
